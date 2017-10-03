@@ -1,0 +1,50 @@
+list-style: none.ul li无圆点
+a:hover{opacity: 0.5;} 透明度
+display: block 改为块状元素
+text-decoration: none 除去链接下划线
+
+https://necolas.github.io/normalize.css/7.0.0/normalize.css
+
+<script type="text/javascript">
+    var mymessage=confirm("你喜欢JavaScript吗?");
+    if(mymessage==true)
+    {   document.write("很好,加油!");   }
+    else
+    {  document.write("JS功能强大，要学习噢!");   }
+</script>
+
+
+var myname=prompt("请输入你的姓名:");
+if(myname!=null)
+  {   alert("你好"+myname); }
+else
+  {  alert("你好 my friend.");  }
+
+<script type="text/javascript">
+  var mystr="hello";
+document.write(mystr+"<br>");//输出hello后，输出一个换行符
+  document.write("JavaScript");
+</script>
+
+
+<script type="text/javascript">
+   var mynum = 30;
+   alert("hello!");
+   alert(mynum);
+</script>
+
+function timeCount()
+i=setTimeout(timedCount,1000)
+clearTimeout(i)
+
+
+window.history.back();
+注意：等同于点击浏览器的倒退按钮。
+
+back()相当于go(-1),代码如下:
+
+window.history.go(-1);
+
+
+elementNode.getAttribute(name)
+elementNode.setAttribute(name,value)

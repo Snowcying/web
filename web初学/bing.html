@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>bing</title>
+		<style type="text/css">
+		/*a{color: white;text-decoration: none;margin-right:35px ;font-size: 15px;opacity: 1;}*/	
+		/*a:hover{opacity: 0.4;}*/
+		*{margin: 0;}
+		body{height: 80%;position: relative;}
+		
+		.words ul li{list-style: none;float: left;margin-left: 40px;}
+		.words ul a:hover{opacity: 0.5;}	
+		.words ul a{display: block;text-decoration: none;color: black}
+		.words{position: relative;min-height: 30px;}
+		
+		.users{position: absolute;right: 160px;}
+		.users a{display: block;text-decoration: none;color: black}
+		.users a:hover{opacity: 0.5;}
+		.touxiang{float:left;margin-left:10px;height: 30px;width: 30px;background:gray;border-radius:70%;background-image: url(hpc20.png);background-position: -12px -153px}
+		.henggang{float: left;margin-left: 30px;height: 30px;width: 30px;background-image: url(hpc20.png);background-position: -196px -144px}
+		
+		.banben{margin-top: 100px;margin-left: 300px;}
+		.banben div{height: 40px;width: 80px;opacity: 0.6;}
+		.guonei p{text-align: center;color: black;font-family: "微软雅黑";line-height: 40px; font-size: 20px;}
+		.guoji p{text-align: center;color: lightblue;font-family: "微软雅黑";line-height: 40px; font-size: 20px;}
+		
+		.bingpic{height: 60px;width: 130px;margin-left:150px;margin-top:140px;background-image: url(hpc20.png);background-position: 0px 0px;}
+		
+		.search{margin: -60px 300px;}	
+		.kuang{height: 50px;width: 500px;background-color: white;border: 0px;font-size: 20px;}
+		.sousuo{height: 50px;margin-left: 450px;margin-top: -50px;}
+		.sousuo input{height: 50px;width:50px;background-color:white;background-image: url(hpc20.png);background-position: -195px -55px ;border: 0;}
+		
+		.buttom{height: 40px;background:#333;width: 100%;margin-top: 387px;position: absolute;left: 0px;}
+		.buttom ul li{list-style: none;float: left;margin-left: 20px;}
+		.buttom ul span:hover{opacity: 0.5;}
+		.buttom ul{font-size: 15px;color: gray;}
+		
+		body
+		{
+			background: url(bing.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+		}
+		</style>
+	</head>
+	<body>
+		
+		<div class="body">
+			
+		</div>
+		<div class="words">
+			<ul>
+				<li><a href="#">图片</a></li>
+				<li><a href="#">视频</a></li>
+				<li><a href="#">学术</a></li>
+				<li><a href="#">字典</a></li>
+				<li><a href="#">地图</a></li>
+				<li><span>|</span></li>
+				<li><a href="#">Office Online</a></li>
+				<li><a href="#">Outlook.com</a></li>
+			</ul>
+			<div class="users">
+				<a href="#" style="display: block;float: left;">登录</a>
+				<div class="touxiang"><a href="#"><p style="opacity: 0;">fasdf</p></a></div>
+				<div class="henggang"><a href="#"><p style="opacity: 0;">afadf</p></a></div>
+				
+			</div>
+		</div>
+		<div class="banben">
+			<div style="background: gray;float: left;" class="guonei"><p>国内版</p></div>
+			<div style="background: black;float: left;" class="guoji"><p>国际版</p></div>
+		</div>
+		
+		<div class="bingpic"></div>
+		
+		<div class="search">
+			<form action="https://cn.bing.com/search"  method="get" target="_self">
+				
+				<input type="text" class="kuang" name="q" value=""/>
+			<div class="sousuo">
+				<input type="submit"  value=""  />
+			</div>
+			</form>
+		<div class="buttom">
+			<ul>
+				<li><span style="margin-left: 300px;">© 2017 Microsoft</span></li>
+				<li><span>京ICP备10036305号</span></li>
+				<li><span>京公网安备11010802022657号</span></li>
+				<li><span>|</span></li>
+				
+			</ul>
+		</div>	
+		</div>
+	</body>
+</html>
